@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+     <title>progress bar</title>
+     <style>
+           .inner-div{
+          	width:10px;
+          	height:10px;
+          	background-color:green;
+          	animation-name:progress;
+          	animation-duration:5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count:1;
+            text-align:center;
+          }
+          .inner2-div{
+            width:10px;
+          	height:10px;
+          	background-color:green;
+          	animation-name:progress1;
+          	animation-duration:5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count:1;
+            text-align:center;
+          }
+          .div1{
+          	display:block;
+          	width:50%;
+            margin-top:20%;
+            padding-left:20%;
+            padding-bottom:10%;
+          }
+          .out-div{
+            border:5px solid black;
+            width:200px;
+            border-radius:3px;
+          }
+          @keyframes progress1{
+            0%  {background-color:green;width:20px;};
+          	20% {background-color:green;width:40px;};
+          	50% {background-color:green; width:100px;height:10px};
+          	75% {background-color:green;width:150px}
+          	100% {background-color:green;width:150px;}
+          }
+          @keyframes progress{
+          	0%  {background-color:green;width:20px;};
+          	20% {background-color:green;width:50px;};
+          	50% {background-color:green; width:100px;height:10px};
+          	75% {background-color:green;width:150px}
+          	100% {background-color:green;width:200px;}
+          }
+     </style>
+  </head>
+  <body>
+  <div class="div1">
+     <h2>skill bar</h2>
+     <p>batting skill</p>
+     <div class="out-div">
+       <div class="inner-div">
+       </div>
+     </div>
+     <br>
+     <p>bowling skill</p>
+     <div class="out-div">
+      <div class="inner2-div">
+      </div>
+    </div>
+   </div>  
+  </body>
+</html>
