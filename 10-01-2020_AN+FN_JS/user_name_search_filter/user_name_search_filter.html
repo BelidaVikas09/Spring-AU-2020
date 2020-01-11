@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>details</title>
+        <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src='details.js'></script>
+      <style>
+      .form1{
+        margin-top: 30vh;
+        margin-left:350;       
+    }
+    .vi{
+        width:300px;
+        height:30px;
+        border-radius: 1px;
+    }
+    .form1{
+       /* box-shadow:5px 10px; */
+        border:2px solid black;
+        padding:10px;
+        padding-top: 40px;
+        width:500px; 
+        left:50%;
+        right:50%;
+    }.conatainer{
+       border:1px solid black;
+       }
+
+
+    </style> 
+    </head>
+    <body>
+        <div class='container'>
+           <form class='form1' onsubmit="return form_validate()">
+            <div class='input-group'>
+                <span class='input-group-addon'>Name</span>
+                <input type="text" id='user' placeholder="username" class='vi'>
+            </div>
+            <br>
+            <div class='input-group'>
+                <span class="input-group-addon">Country</span>
+                <select class='vi'>
+                    <option value="India">India</option>
+                    <option value="U.S.A">U.S.A</option>
+                    <option value="UK">UK</option>
+                    <option value="AUS">AUS</option>
+                  </select>                  
+            </div>
+            <br>
+            <div class='input-group'>
+                <span class='input-group-addon'>username</span>
+                <input type='text' id='user1' class='vi' placeholder="username" onkeyup="myfunction()">
+            </div>
+            <br>
+            <div id='names' class='sc'>
+            </div>
+            <div class="input-group-btn">
+              <button class="btn btn-success" type="button" id='btn' onclick="sorted()">sort</button>
+            </div>
+            <div id='sorted' class='sc'>
+               
+            </div>
+        </form>
+        </div>
+    </body> 
+</html>

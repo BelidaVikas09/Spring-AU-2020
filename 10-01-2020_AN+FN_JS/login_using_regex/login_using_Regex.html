@@ -1,0 +1,48 @@
+<html>
+  <head>
+
+      <title>Login Page</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src='login.js'></script>
+      <style>
+          .form1{
+              margin-top: 30vh;
+              margin-left:350;       
+          }
+          .vi{
+              width:300px;
+              border-radius: 1px;
+          } 
+      </style>
+  </head>
+  <body>
+          <div class='container'>
+              <form class='form1'>
+                  <h1>Login Page</h1>
+                  <div class='input-group'>
+                      <span class='input-group-addon'><i class="glyphicon glyphicon-user"></i></span>
+                      <input type="text" id='user' placeholder="username" class='vi'>
+                  </div>
+                  <div class='input-group'>
+                      <span class='input-group-addon'><i class='glyphicon glyphicon-lock'></i></span>
+                      <input type="password" id='pass'  class='vi' placeholder="password"> 
+                  </div>
+                  <div class='input-group'>
+                      <span class='input-group-addon'><i class='glyphicon glyphicon-lock'></i></span>
+                      <input type='password' id='pass1' class='vi' placeholder="re enter password">
+                  </div>
+                  <br>
+                  <div class="input-group-btn">
+                    <button class="btn btn-success" type="button" id='btn' onclick="form_validate()">Submit</button>
+                  </div>
+                  <p id='userid'></p>
+              <p id='passid'></p>   
+              </form>
+                          
+          </div> 
+  </body>
+</html>
