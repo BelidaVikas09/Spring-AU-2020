@@ -1,0 +1,66 @@
+------------------------------pagination-------------------
+
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `pagination`(in page_no int,in row_num int)
+BEGIN
+  declare c int;
+  set c=page_no*row_num;
+  select emp_id,emp_name,marks from employee limit row_num offset c;     
+END
+
+sql query for stored procedure:
+call pagination(2,4);
+
+
+----------------------------triggers-------------------       
+1.)  before insert trigger
+
+use 'practise';
+
+DELIMITER $$
+CREATE TRIGGER trigger_name
+    BEFORE INSERT
+    ON employee FOR EACH ROW
+BEGIN
+    if (new.emp_name is null) then
+	     set new.emp_name='na';
+     end if; 
+END$$
+
+sql query:
+
+insert into employee values(10020,null,100);
+
+2.) before update trigger
+
+sql query:
+
+CREATE DEFINER=`root`@`localhost` TRIGGER `employee_BEFORE_UPDATE` BEFORE UPDATE ON `employee` FOR EACH ROW BEGIN
+declare errormessage varchar(255);
+set errormessage='new marks cant be 2 times more than old marks';
+	if new.marks>(old.marks*2) then
+    signal sqlstate '45000'
+       set message_text=errormessage;
+    end if;   
+
+END
+
+
+sql query:
+
+update employee set marks=300 where emp_id='12';
+
+3.) before delete trigger
+
+sql query:
+CREATE DEFINER=`root`@`localhost` TRIGGER `employee_BEFORE_DELETE` BEFORE DELETE ON `employee` FOR EACH ROW BEGIN
+     declare errormessage varchar(255);
+     set errormessage='cant delete marks of the student greater than 90';
+     if old.marks>=90 then
+     signal sqlstate '45000'
+	 set message_text=errormessage;
+     end if;
+END
+ 
+delete employee where emp_id='1';
+
