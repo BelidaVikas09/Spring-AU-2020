@@ -1,0 +1,16 @@
+<p>data from the form</p>
+<table>
+    <thead>
+       <tr>
+           <td>FirstName</td>           
+           <td>LastName</td>
+           <td>Age</td>
+           <td>Phone</td>
+       </tr>    
+    </thead>
+    <tbody>   
+    <tr *ngFor="let user of data"> 
+        <td>{{user.firstName}}</td><td>{{user.lastName}}</td><td>{{user.Age}}</td><td>{{user.Phone}}</td>
+    </tr>
+   </tbody>  
+</table>

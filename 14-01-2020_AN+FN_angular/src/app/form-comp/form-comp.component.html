@@ -1,0 +1,23 @@
+<style>
+  div{
+      position: absolute;
+      margin-top: 10vh;
+      left:40%;
+      right:40%;
+      border:1 px solid black;
+      box-shadow: black;
+  }
+  form{
+      border:1 px solid black;
+  } 
+</style>
+<div>
+<form [formGroup]='ProfileForm'>
+    FirstName:<input  class='form-control' type='text' formControlName='firstName'><br><br>
+    lastName:<input class='form-control' type='text' formControlName='lastName'><br><br>
+    Age:<input class='form-control' type='number' formControlName='Age'><br><br>
+    Phone:<input class='form-control' type='tel' formControlName='Phone'><br><br>
+    <button (click)='onSubmit()'>submit</button> 
+</form><br>
+<button type='button' class='btn btn-success' style='text-decoration: none;' [routerLink]="['/display']">displaydata</button>
+</div>
