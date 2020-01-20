@@ -2,10 +2,7 @@ package jdbc;
 
 public class EmployeeDept{
 	private int emp_id,sal,dep_id;
-	private String emp_name;;
-	private String Designation;
-	private String Department;
-	
+	private String emp_name,Designation,Department;
 	EmployeeDept(int employee_id,String employee_name,String job_name,int salary,int department_id,String department){
 		this.emp_id=employee_id;
 		this.emp_name=employee_name;
