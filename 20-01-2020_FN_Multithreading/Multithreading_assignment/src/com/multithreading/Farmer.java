@@ -1,6 +1,12 @@
 package com.multithreading;
 
 import java.util.Map;
+interface functionalinterface{
+    int get_present_cap(Map<String,Integer> map);
+}
+interface functionalmapping{
+    void add_fruits_into_the_market(String s,int x);
+}
 
 public class Farmer implements Runnable{
     public Farmer(){
@@ -13,10 +19,10 @@ public class Farmer implements Runnable{
         System.out.println(name + "  started");
         while(true) {
             synchronized (Main.fruitmap) {
-                    add_fruits_into_the_market(Main.fruits[0],1);
-                    add_fruits_into_the_market(Main.fruits[1],1);
-                    add_fruits_into_the_market(Main.fruits[2],1);
-                    add_fruits_into_the_market(Main.fruits[3],1);
+                    funcm.add_fruits_into_the_market(Main.fruits[0],1);
+                    funcm.add_fruits_into_the_market(Main.fruits[0],1);
+                    funcm.add_fruits_into_the_market(Main.fruits[0],1);
+                    funcm.add_fruits_into_the_market(Main.fruits[0],1);
                     try{
                         Main.fruitmap.wait();
                     } catch (Exception e) {
@@ -25,9 +31,16 @@ public class Farmer implements Runnable{
             }
         }
     }
-    public void add_fruits_into_the_market(String fruit,int value){
+    functionalinterface func=(Map<String,Integer> m)->{  //lambda function
+        int total=0;
+        for(Map.Entry<String,Integer> entry :m.entrySet()){
+            total+=entry.getValue();
+        }
+        return total;
+    };
+    functionalmapping funcm=(String fruit,int value )->{  //lambda function
         int total_cap=Main.total_capacity_of_market;
-        int present_cap_of_market=get_present_cap(Main.fruitmap);
+        int present_cap_of_market=func.get_present_cap(Main.fruitmap);
         int capacity_of_fruit=Main.fruitmap.get(fruit);
         if(capacity_of_fruit<=Main.threshold){
             Main.fruitmap.put(fruit,capacity_of_fruit+1);
@@ -42,12 +55,6 @@ public class Farmer implements Runnable{
         } catch (Exception e) {
             System.out.println("Exception occured: "+e.getMessage());
         }
-    }
-    public int get_present_cap(Map<String,Integer> map){
-        int cap=0;
-        for(int val:map.values()){
-            cap+=val;
-        }
-        return cap;
-    }
+    };
+
 }
