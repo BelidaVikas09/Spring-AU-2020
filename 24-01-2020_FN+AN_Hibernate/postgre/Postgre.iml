@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/postgresql-42.2.8.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/antlr-2.7.7.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/byte-buddy-1.10.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/classmate-1.5.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/dom4j-2.1.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/FastInfoset-1.2.15.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/geolatte-geom-1.4.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/hibernate-commons-annotations-5.1.0.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/hibernate-core-5.4.9.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/hibernate-jpamodelgen-5.4.9.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/hibernate-osgi-5.4.9.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/hibernate-spatial-5.4.9.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/istack-commons-runtime-3.0.7.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jandex-2.1.1.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/javassist-3.24.0-GA.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/javax.activation-api-1.2.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/javax.interceptor-api-1.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/javax.persistence-api-2.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jaxb-api-2.3.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jaxb-runtime-2.3.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jboss-logging-3.3.2.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jboss-transaction-api_1.2_spec-1.1.1.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jts-core-1.16.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/org.osgi.compendium-5.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/org.osgi.core-6.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/postgresql-42.2.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/postgresql-42.2.8.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/slf4j-api-1.6.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/stax-ex-1.8.jar!/" />
+    <libelement value="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/txw2-2.3.1.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping>
+          <factory-entry name="Entities" />
+        </datasource-mapping>
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="postgresql-42.2.8.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/postgresql-42.2.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="antlr-2.7.7.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/antlr-2.7.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="byte-buddy-1.10.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/byte-buddy-1.10.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="classmate-1.5.1.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/classmate-1.5.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dom4j-2.1.1.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/dom4j-2.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="FastInfoset-1.2.15.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/FastInfoset-1.2.15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="geolatte-geom-1.4.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/geolatte-geom-1.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-commons-annotations-5.1.0.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/hibernate-commons-annotations-5.1.0.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-core-5.4.9.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/hibernate-core-5.4.9.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-jpamodelgen-5.4.9.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/hibernate-jpamodelgen-5.4.9.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-osgi-5.4.9.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/hibernate-osgi-5.4.9.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-spatial-5.4.9.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/hibernate-spatial-5.4.9.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="istack-commons-runtime-3.0.7.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/istack-commons-runtime-3.0.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jandex-2.1.1.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jandex-2.1.1.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javassist-3.24.0-GA.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/javassist-3.24.0-GA.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javax.activation-api-1.2.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/javax.activation-api-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javax.interceptor-api-1.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/javax.interceptor-api-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javax.persistence-api-2.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/javax.persistence-api-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-api-2.3.1.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jaxb-api-2.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-runtime-2.3.1.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jaxb-runtime-2.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-logging-3.3.2.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jboss-logging-3.3.2.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-transaction-api_1.2_spec-1.1.1.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jboss-transaction-api_1.2_spec-1.1.1.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jts-core-1.16.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/jts-core-1.16.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.osgi.compendium-5.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/org.osgi.compendium-5.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.osgi.core-6.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/org.osgi.core-6.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="postgresql-42.2.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/postgresql-42.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/postgresql-42.2.8.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/postgresql-42.2.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-1.6.1.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/slf4j-api-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="stax-ex-1.8.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/stax-ex-1.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="txw2-2.3.1.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/Required jars/Required jars/txw2-2.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="postgresql-42.2.8" level="project" />
+    <orderEntry type="library" name="byte-buddy-1.10.2" level="project" />
+  </component>
+</module>
